@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* head 部分 */
+header {
+    background-color: #000000;
+    height: 80px;
+    width: 100%;
+}
+header li {
+    display: inline;
+    margin-right: 4vw;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+header ul {
+    position: absolute;
+    right: 3vw;
+    top: 0;
+    line-height: 80px;
+}
+
+/* 标题部分 */
+h1 {
+    color: yellow;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+    /* background-image: url(images/校训.jpg);
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+h2 {
+    font-size: 50px;
+    color: black;
+}
+p {
+    color: grey;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* 项目部分 */
+.project {
+    background-color: antiquewhite;
+    color: white;
+    height: 85vh;
+    background-image: url("images/校训.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project a {
+    color: rgb(48, 115, 222);
+    text-decoration: none;
+    border: 1px solid;
+    padding: 2px 3px;
+    border-radius: 5px;
+}
+
+/* 页尾部分 */
+footer {
+    background-color: #000000;
+    color: #b7b7b7;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+/* section, footer{
+    background-color: #d6ccc2;
+    border: 5px yellowgreen dashed;
+    padding: 30px 50px;
+    margin: 30px;
+} */
